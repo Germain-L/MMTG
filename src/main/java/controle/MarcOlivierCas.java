@@ -1,7 +1,25 @@
 package controle;
 
 public class MarcOlivierCas {
+
+    String message;
+
+    int money = 150;
+
     public void MarcOlivierCas() {
-        System.out.println("Hello, this is a class created and modified by Marc-Olivier CAS");
+        this.message = "Hello world";
+    }
+
+    public void MarcOlivierCas(String message) {
+        this.message = message;
+    }
+
+    public void MarcOlivierCas(int money) {
+        this.money = money;
+    }
+
+    public void spendMoney(int money) {
+        var objet = 100;
+        this.money = this.money - objet;
     }
 }
