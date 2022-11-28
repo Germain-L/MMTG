@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ab05cb2-4356-45f0-ad91-8ca21b6ded92" name="Changes" comment="&quot;added test folder&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controle/MarcOlivierCas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controle/MarcOlivierCas.java" afterDir="false" />
+    <list default="true" id="4ab05cb2-4356-45f0-ad91-8ca21b6ded92" name="Changes" comment="made some test for file MarcOlivierCas">
       <change beforePath="$PROJECT_DIR$/src/test/java/controle/TestMarcOlivierCas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controle/TestMarcOlivierCas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,8 +132,16 @@
       <updated>1668074070019</updated>
       <workItem from="1668074072298" duration="3289000" />
       <workItem from="1668413569006" duration="19000" />
-      <workItem from="1669636726742" duration="2125000" />
+      <workItem from="1669636726742" duration="3027000" />
     </task>
+    <task id="LOCAL-00001" summary="made some test for file MarcOlivierCas">
+      <created>1669639289870</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669639289871</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +161,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;commit after dev pull&quot;" />
     <MESSAGE value="&quot;added test folder&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;added test folder&quot;" />
+    <MESSAGE value="made some test for file MarcOlivierCas" />
+    <option name="LAST_COMMIT_MESSAGE" value="made some test for file MarcOlivierCas" />
   </component>
 </project>
