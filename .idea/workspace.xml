@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ab05cb2-4356-45f0-ad91-8ca21b6ded92" name="Changes" comment="&quot;added test folder&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/controle/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/controle/TestGermain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controle/MarcOlivierCas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controle/MarcOlivierCas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/controle/TestMarcOlivierCas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controle/TestMarcOlivierCas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controle/Germain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controle/Germain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controle/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -45,13 +48,14 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestMarcOlivierCas.testCheckMoney">
-    <configuration name="TestMarcOlivierCas.testCheckMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestGermain">
+    <configuration name="TestAll" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="MMTG" />
       <extension name="coverage">
         <pattern>
@@ -60,14 +64,45 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="controle" />
-      <option name="MAIN_CLASS_NAME" value="controle.TestMarcOlivierCas" />
-      <option name="METHOD_NAME" value="testCheckMoney" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGermain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MMTG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controle" />
+      <option name="MAIN_CLASS_NAME" value="controle.TestGermain" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGermain.testCalculate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MMTG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controle" />
+      <option name="MAIN_CLASS_NAME" value="controle.TestGermain" />
+      <option name="METHOD_NAME" value="testCalculate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMarcOlivierCas.testMarcolivierCas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGermain.testCalculate10Drinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MMTG" />
       <extension name="coverage">
         <pattern>
@@ -76,14 +111,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="controle" />
-      <option name="MAIN_CLASS_NAME" value="controle.TestMarcOlivierCas" />
-      <option name="METHOD_NAME" value="testMarcolivierCas(java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="controle.TestGermain" />
+      <option name="METHOD_NAME" value="testCalculate10Drinks" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMarcOlivierCas.testSendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestGermain.testCalculate15Drinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MMTG" />
       <extension name="coverage">
         <pattern>
@@ -92,24 +127,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="controle" />
-      <option name="MAIN_CLASS_NAME" value="controle.TestMarcOlivierCas" />
-      <option name="METHOD_NAME" value="testSendMessage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMarcOlivierCas.testSpendMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MMTG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="controle" />
-      <option name="MAIN_CLASS_NAME" value="controle.TestMarcOlivierCas" />
-      <option name="METHOD_NAME" value="testSpendMoney" />
+      <option name="MAIN_CLASS_NAME" value="controle.TestGermain" />
+      <option name="METHOD_NAME" value="testCalculate15Drinks" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,10 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestMarcOlivierCas.testCheckMoney" />
-        <item itemvalue="JUnit.TestMarcOlivierCas.testSendMessage" />
-        <item itemvalue="JUnit.TestMarcOlivierCas.testSpendMoney" />
-        <item itemvalue="JUnit.TestMarcOlivierCas.testMarcolivierCas" />
+        <item itemvalue="JUnit.TestGermain" />
+        <item itemvalue="JUnit.TestGermain.testCalculate15Drinks" />
+        <item itemvalue="JUnit.TestGermain.testCalculate10Drinks" />
+        <item itemvalue="JUnit.TestGermain.testCalculate" />
+        <item itemvalue="JUnit.TestAll" />
       </list>
     </recent_temporary>
   </component>
