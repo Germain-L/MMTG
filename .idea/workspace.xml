@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="4ab05cb2-4356-45f0-ad91-8ca21b6ded92" name="Changes" comment="">
 <<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -12,6 +13,12 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/controle/Germain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 >>>>>>> 893304e5555aaf8941b7c8f5df1519cddb9a3238
+=======
+    <list default="true" id="4ab05cb2-4356-45f0-ad91-8ca21b6ded92" name="Changes" comment="&quot;added test folder&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controle/MarcOlivierCas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controle/MarcOlivierCas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controle/TestMarcOlivierCas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controle/TestMarcOlivierCas.java" afterDir="false" />
+>>>>>>> 5fbf7c685eb385eaa9b8e05a5cc1693333183536
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +46,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/projects/EPSI/EPSI/B3/intégration_continue/JUnit&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/projects/EPSI/EPSI/B3/intégration_continue/JUnit",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="JUnit.TestMarcOlivierCas.testCheckMoney">
+    <configuration name="TestMarcOlivierCas.testCheckMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MMTG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controle" />
+      <option name="MAIN_CLASS_NAME" value="controle.TestMarcOlivierCas" />
+      <option name="METHOD_NAME" value="testCheckMoney" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMarcOlivierCas.testMarcolivierCas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MMTG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controle" />
+      <option name="MAIN_CLASS_NAME" value="controle.TestMarcOlivierCas" />
+      <option name="METHOD_NAME" value="testMarcolivierCas(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMarcOlivierCas.testSendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MMTG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controle" />
+      <option name="MAIN_CLASS_NAME" value="controle.TestMarcOlivierCas" />
+      <option name="METHOD_NAME" value="testSendMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMarcOlivierCas.testSpendMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MMTG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controle" />
+      <option name="MAIN_CLASS_NAME" value="controle.TestMarcOlivierCas" />
+      <option name="METHOD_NAME" value="testSpendMoney" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMarcOlivierCas.testCheckMoney" />
+        <item itemvalue="JUnit.TestMarcOlivierCas.testSendMessage" />
+        <item itemvalue="JUnit.TestMarcOlivierCas.testSpendMoney" />
+        <item itemvalue="JUnit.TestMarcOlivierCas.testMarcolivierCas" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +143,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668074070019</updated>
-      <workItem from="1668074072298" duration="2241000" />
+      <workItem from="1668074072298" duration="3289000" />
+      <workItem from="1668413569006" duration="19000" />
+      <workItem from="1669636726742" duration="2125000" />
     </task>
     <servers />
   </component>
@@ -77,5 +162,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;commit after dev pull&quot;" />
+    <MESSAGE value="&quot;added test folder&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;added test folder&quot;" />
   </component>
 </project>
