@@ -1,7 +1,7 @@
 package controle;
 
 public class Main {
-    public void Main() {
+    public static void main() {
         Max max = new Max();
         Thomas thomas = new Thomas();
         MarcOlivierCas mocc = new MarcOlivierCas();
@@ -9,5 +9,6 @@ public class Main {
 
         max.hello();
         germain.sayHelloTo("Thomas");
+        germain.calculate(80, 5, "Thomas");
     }
 }
