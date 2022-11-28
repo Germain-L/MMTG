@@ -18,16 +18,16 @@ public class Thomas {
         this.message = message ;
     }
 
-    public void checkIv(int iv) {
+    public String checkIv(int iv) {
         this.iv = iv;
         if (this.iv < 25) {
-            System.out.println(low);
+            return low;
         } else if (this.iv < 36){
-            System.out.println(medium);
+            return medium;
         } else if (this.iv < 45){
-            System.out.println(high);
+            return high;
         } else {
-            System.out.println(perfet);
+            return perfect;
         }
     }
 }

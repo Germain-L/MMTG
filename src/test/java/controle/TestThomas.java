@@ -14,18 +14,31 @@ public class TestThomas {
     }
 
     @Test
-    public void testCheckIv() {
+    public void testIv45() {
         Thomas thomas = new Thomas();
         thomas.checkIv(45);
-        assertEquals(45, thomas.iv);
-        if (thomas.iv < 25) {
-            assertEquals("This pokemon is weak", thomas.low);
-        } else if (thomas.iv < 36){
-            assertEquals("This pokemon is medium", thomas.medium);
-        } else if (thomas.iv < 45){
-            assertEquals("This pokemon is strong", thomas.high);
-        } else {
-            assertEquals("This pokemon is perfect", thomas.perfet);
-        }
+        assertEquals("This pokemon is perfect", thomas.perfet);
     }
+
+    @Test
+    public void testIv30() {
+        Thomas thomas = new Thomas();
+        thomas.checkIv(30);
+        assertEquals("This pokemon is strong", thomas.high);
+    }
+
+    @Test
+    public void testIv20() {
+        Thomas thomas = new Thomas();
+        thomas.checkIv(20);
+        assertEquals("This pokemon is weak", thomas.low);
+    }
+
+    @Test
+    public void testIv27() {
+        Thomas thomas = new Thomas();
+        thomas.checkIv(27);
+        assertEquals("This pokemon is medium", thomas.medium);
+    }
+
 }
