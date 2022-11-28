@@ -4,11 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <list default="true" id="4ab05cb2-4356-45f0-ad91-8ca21b6ded92" name="Changes" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controle/Max.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controle/Max.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/controle/Germain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 893304e5555aaf8941b7c8f5df1519cddb9a3238
+=======
+    <list default="true" id="4ab05cb2-4356-45f0-ad91-8ca21b6ded92" name="Changes" comment="&quot;added test folder&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controle/MarcOlivierCas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controle/MarcOlivierCas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controle/TestMarcOlivierCas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controle/TestMarcOlivierCas.java" afterDir="false" />
+>>>>>>> 5fbf7c685eb385eaa9b8e05a5cc1693333183536
+=======
     <list default="true" id="9bd5b3cb-57c4-45bc-92ed-33bf02fd2e1b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controle/Thomas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controle/Thomas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controle/enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controle/Enum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/controle/TestThomas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controle/TestThomas.java" afterDir="false" />
+>>>>>>> 82e7fd58783881890d116ad56647081c50476545
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
