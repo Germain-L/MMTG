@@ -12,7 +12,7 @@ public class Thomas {
 
     String high = "This pokemon is strong";
 
-    String perfet = "This pokemon is perfect";
+    String perfect = "This pokemon is perfect";
 
     public void sendMessage(String message) {
         this.message = message ;

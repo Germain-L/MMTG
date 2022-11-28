@@ -17,7 +17,7 @@ public class TestThomas {
     public void testIv45() {
         Thomas thomas = new Thomas();
         thomas.checkIv(45);
-        assertEquals("This pokemon is perfect", thomas.perfet);
+        assertEquals("This pokemon is perfect", thomas.perfect);
     }
 
     @Test
