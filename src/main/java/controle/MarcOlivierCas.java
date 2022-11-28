@@ -6,20 +6,28 @@ public class MarcOlivierCas {
 
     int money = 150;
 
-    public void MarcOlivierCas() {
-        this.message = "Hello world";
-    }
+    String debt = "You are in debt";
 
-    public void MarcOlivierCas(String message) {
-        this.message = message;
-    }
+    String noMoneyLeft = "You are poor, go to work !";
 
-    public void MarcOlivierCas(int money) {
-        this.money = money;
-    }
+    String moneyLeft = "You are not broke, you can go to the casino !";
 
-    public void spendMoney(int money) {
-        var objet = 100;
+    public void spendMoney(int objet) {
         this.money = this.money - objet;
+    }
+
+    public void sendMessage(String message) {
+        this.message = message ;
+    }
+
+    public void checkMoney(int money, int spendMoney) {
+        this.money = money - spendMoney;
+        if (this.money < 0) {
+            System.out.println(debt);
+        } else if (this.money == 0){
+            System.out.println(noMoneyLeft);
+        } else {
+            System.out.println(moneyLeft);
+        }
     }
 }
