@@ -1,4 +1,4 @@
-public class Enum {
+public enum Enum {
 
     JAVA,
     JS,
@@ -7,6 +7,6 @@ public class Enum {
     C,
     C++,
     C#,
-    
+
 
 }
