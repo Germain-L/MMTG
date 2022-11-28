@@ -7,7 +7,6 @@ public class Main {
         MarcOlivierCas mocc = new MarcOlivierCas();
         Germain germain = new Germain();
 
-        max.hello();
         germain.sayHelloTo("Thomas");
         germain.calculate(80, 5, "Thomas");
     }
