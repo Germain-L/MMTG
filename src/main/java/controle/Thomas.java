@@ -6,6 +6,8 @@ public class Thomas {
 
     int iv = 45;
 
+    String useless = "This pokemon is useless";
+
     String low = "This pokemon is weak";
 
     String medium = "This pokemon is medium";
@@ -20,13 +22,15 @@ public class Thomas {
 
     public String checkIv(int iv) {
         this.iv = iv;
-        if (this.iv < 25) {
+        if (this.iv >= 1 && this.iv =< 25) {
             return low;
-        } else if (this.iv < 36){
+        } else if (this.iv >= 26 && this.iv =< 36){
             return medium;
-        } else if (this.iv < 45){
+        } else if (this.iv >= 37 && this.iv =< 45){
             return high;
-        } else {
+        } else if (this.iv == 0){
+            return useless;
+        } else if (this.iv == 45){
             return perfect;
         }
     }
