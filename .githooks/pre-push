@@ -2,6 +2,8 @@
 
 echo "Running pre-push hook"
 
+echo "Pushing to $1"
+
 #prevent push to test
 if [ "$1" = "test" ]; then
     echo "You cannot push to test"
