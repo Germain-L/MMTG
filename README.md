@@ -1,2 +1,7 @@
 # Titre
-Ceci est un projetsss
+Projet d'intégration continue
+
+## Setup githooks
+```bash
+git config core.hooksPath .githooks
+```
