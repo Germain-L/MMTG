@@ -47,5 +47,12 @@ public class TestThomas {
         thomas.checkIv(0);
         assertEquals("This pokemon is useless", thomas.useless);
     }
+    @Test
+    public void testIv4() {
+        Thomas thomas = new Thomas();
+        thomas.checkIv(0);
+        assertEquals("This pokemon is useless", thomas.useless);
+    }
+
 
 }
