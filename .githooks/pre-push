@@ -5,7 +5,10 @@ echo "Running pre-push hook"
 # Get current branch
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
+AUHTOR=$(git config user.name)
+
 echo "Current branch: $BRANCH"
+echo "Author: $AUHTOR"
 
 #prevent push to test
 if [ "$BRANCH" = "test" ]; then
