@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "Running pre-push hook"
+
+# Get current branch
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+AUTHOR=$(git config user.name)
+
+if [ "$BRANCH" == "main" ] && [ "$AUTHOR" != "Germain" ]; then
+    echo "You are not allowed to push to $BRANCH (sorry $AUTHOR)"
+    exit 1
+fi

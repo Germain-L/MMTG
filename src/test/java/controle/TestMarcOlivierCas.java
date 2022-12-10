@@ -16,8 +16,8 @@ public class TestMarcOlivierCas {
     @Test
     public void testSendMessage() {
         MarcOlivierCas marcOlivierCas = new MarcOlivierCas();
-        marcOlivierCas.sendMessage("Hello, are you ? 'From Marc Olivier CAS'");
-        assertEquals("Hello, are you ? 'From Marc Olivier CAS'", marcOlivierCas.message);
+        marcOlivierCas.sendMessage("Hello, how are you ? 'From Marc Olivier CAS'");
+        assertEquals("Hello, how are you ? 'From Marc Olivier CAS'", marcOlivierCas.message);
     }
 
     @Test
