@@ -2,10 +2,10 @@
 
 echo "Running pre-push hook"
 
-echo "Pushing to $1"
+echo "Pushing to $1 $2"
 
 #prevent push to test
-if [ "$1" = "test" ]; then
+if [ "$1 $2" = "origin test" ]; then
     echo "You cannot push to test"
     exit 1
 fi
