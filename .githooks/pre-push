@@ -1,7 +1,9 @@
 #!/bin/sh
 
-# Check if push is to master, prevent it if it is
-if [ "$1" = "refs/heads/test" ]; then
-    echo "Push to test is not allowed"
+echo "Running pre-push hook"
+
+#prevent push to test
+if [ "$1" = "test" ]; then
+    echo "You cannot push to test"
     exit 1
 fi
