@@ -5,3 +5,9 @@ Projet d'intégration continue
 ```bash
 git config core.hooksPath .githooks
 ```
+
+## Participants
+ - Marc-Olivier CAS
+ - Maximilien DELIBES-HOUDAYER
+ - Thomas BARILLE
+ - Germain LEIGNEL
