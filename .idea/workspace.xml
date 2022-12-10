@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ab05cb2-4356-45f0-ad91-8ca21b6ded92" name="Changes" comment="made some test for file MarcOlivierCas">
-      <change beforePath="$PROJECT_DIR$/src/test/java/controle/TestMarcOlivierCas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controle/TestMarcOlivierCas.java" afterDir="false" />
+    <list default="true" id="4ab05cb2-4356-45f0-ad91-8ca21b6ded92" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.githooks/commit-msg" beforeDir="false" afterPath="$PROJECT_DIR$/.githooks/commit-msg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,89 +40,40 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/projects/EPSI/EPSI/B3/intégration_continue/JUnit",
+    "last_opened_file_path": "C:/projects/java/MMTG",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestMarcOlivierCas.testCheckMoney">
-    <configuration name="TestMarcOlivierCas.testCheckMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="MMTG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="controle" />
-      <option name="MAIN_CLASS_NAME" value="controle.TestMarcOlivierCas" />
-      <option name="METHOD_NAME" value="testCheckMoney" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMarcOlivierCas.testMarcolivierCas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MMTG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="controle" />
-      <option name="MAIN_CLASS_NAME" value="controle.TestMarcOlivierCas" />
-      <option name="METHOD_NAME" value="testMarcolivierCas(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMarcOlivierCas.testSendMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MMTG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="controle" />
-      <option name="MAIN_CLASS_NAME" value="controle.TestMarcOlivierCas" />
-      <option name="METHOD_NAME" value="testSendMessage" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMarcOlivierCas.testSpendMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MMTG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="controle" />
-      <option name="MAIN_CLASS_NAME" value="controle.TestMarcOlivierCas" />
-      <option name="METHOD_NAME" value="testSpendMoney" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TestMarcOlivierCas.testCheckMoney" />
-        <item itemvalue="JUnit.TestMarcOlivierCas.testSendMessage" />
-        <item itemvalue="JUnit.TestMarcOlivierCas.testSpendMoney" />
-        <item itemvalue="JUnit.TestMarcOlivierCas.testMarcolivierCas" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -130,18 +83,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668074070019</updated>
-      <workItem from="1668074072298" duration="3289000" />
-      <workItem from="1668413569006" duration="19000" />
-      <workItem from="1669636726742" duration="3027000" />
+      <workItem from="1668074072298" duration="192000" />
+      <workItem from="1670678618685" duration="29000" />
+      <workItem from="1670678657949" duration="3561000" />
     </task>
-    <task id="LOCAL-00001" summary="made some test for file MarcOlivierCas">
-      <created>1669639289870</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1669639289871</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,11 +102,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="&quot;commit after dev pull&quot;" />
-    <MESSAGE value="&quot;added test folder&quot;" />
-    <MESSAGE value="made some test for file MarcOlivierCas" />
-    <option name="LAST_COMMIT_MESSAGE" value="made some test for file MarcOlivierCas" />
   </component>
 </project>
