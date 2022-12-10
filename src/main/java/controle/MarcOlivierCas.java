@@ -30,5 +30,4 @@ public class MarcOlivierCas {
             System.out.println(moneyLeft);
         }
     }
-    //////////////////////////////////
 }
