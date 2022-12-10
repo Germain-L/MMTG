@@ -1,3 +1,11 @@
 #!/bin/bash
 
-echo "This is a test"
+result=$(mvn clean test)
+
+if [ $? -ne 0 ]; then
+    echo "Tests failed, commit aborted"
+    exit 1
+else
+    echo "Tests passed, commit allowed"
+    exit 0
+fi
