@@ -12,7 +12,6 @@ public class Main {
         mocc.checkMoney(150, 50);
         mocc.sendMessage("Hello, how are you ? 'From Marc Olivier CAS'");
 
-
         Thomas thomas = new Thomas();
         result = thomas.checkIv(30);
         System.out.println(result);
