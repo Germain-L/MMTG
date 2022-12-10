@@ -2,10 +2,13 @@
 
 echo "Running pre-push hook"
 
-echo "Pushing to $1 $2"
+# Get current branch
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+echo "Current branch: $BRANCH"
 
 #prevent push to test
-if [ "$1 $2" = "origin test" ]; then
+if [ "$BRANCH" = "test" ]; then
     echo "You cannot push to test"
     exit 1
 fi
