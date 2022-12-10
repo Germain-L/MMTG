@@ -14,18 +14,19 @@ public class Max {
 
     String message;
 
-    public void evaluationRarity() {
+    public String evaluationRarity(int rarity) {
         if (rarity <= 55) {
             System.out.println(commonWeapon);
-        }
-        if (rarity <= 85) {
+            return commonWeapon;
+        } else if (rarity > 55 && rarity <= 85) {
             System.out.println(unCommonWeapon);
-        }
-        if (rarity <= 95) {
+            return unCommonWeapon;
+        } else if (rarity > 85 && rarity <= 95) {
             System.out.println(rareWeapon);
-        }
-        if (rarity < 100) {
+            return rareWeapon;
+        } else {
             System.out.println(legendaryWeapon);
+            return legendaryWeapon;
         }
     }
 

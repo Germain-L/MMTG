@@ -4,9 +4,11 @@
 COMMIT_MSG_FILE=$1
 COMMIT_MSG=$(cat $COMMIT_MSG_FILE)
 
-# Add branch name to commit message
-BRANCH_NAME=$(git symbolic-ref --short HEAD)
-COMMIT_MSG=$(echo "$COMMIT_MSG" | sed "s/^/$BRANCH_NAME: /")
+# Add author name to commit message
+COMMIT_MSG="$GIT_AUTHOR_NAME -> $COMMIT_MSG"
+
+# Write the commit message back to the file
+echo "$COMMIT_MSG" > $COMMIT_MSG_FILE
 
 # Write commit message back to file
 echo "$COMMIT_MSG" > $COMMIT_MSG_FILE
