@@ -5,7 +5,7 @@ COMMIT_MSG_FILE=$1
 COMMIT_MSG=$(cat $COMMIT_MSG_FILE)
 
 # Add author name to commit message
-COMMIT_MSG="Author: $GIT_AUTHOR_NAME -> $COMMIT_MSG"
+COMMIT_MSG="$GIT_AUTHOR_NAME -> $COMMIT_MSG"
 
 # Write the commit message back to the file
 echo "$COMMIT_MSG" > $COMMIT_MSG_FILE
