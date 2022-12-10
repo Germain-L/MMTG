@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Check if push is to master, prevent it if it is
+if [ "$1" = "refs/heads/main" ]; then
+    echo "Push to main is not allowed"
+    exit 1
+fi
