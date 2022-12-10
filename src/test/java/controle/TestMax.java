@@ -15,6 +15,10 @@ public class TestMax {
 
     @Test
     public void testEvaluationRarity() {
+        Max max = new Max();
 
+        String result = max.evaluationRarity(87);
+
+        assertEquals("Has a ancient power inside, usefull in fights", result);
     }
 }
